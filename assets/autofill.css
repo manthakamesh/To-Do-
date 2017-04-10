@@ -1,0 +1,52 @@
+body
+{
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 1em;
+   font-size: 20px;
+}
+
+label,
+input
+{
+   display: block;
+}
+
+input[type="checkbox"],
+input[type="radio"],
+input[type="reset"],
+input[type="submit"]
+{
+   display: inline;
+}
+
+input
+{
+   font-size: inherit;
+   margin-bottom: 0.5em;
+}
+
+
+
+dt
+{
+   float: left;
+   margin-right: 0.2em;
+}
+
+#searches-list
+{
+   cursor: pointer;
+}
+
+#searches-list > li:hover dl,
+#searches-list > li:focus dl
+{
+   display: block;
+}
+
+#searches-list dl
+{
+   margin: 0;
+   display: none;
+}

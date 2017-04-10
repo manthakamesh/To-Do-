@@ -1,0 +1,165 @@
+@media (min-width: 600px)
+{
+   .side
+   {
+      display: inline-block;
+      width: 49%;
+      vertical-align: top;
+   }
+}
+
+dt
+{
+   float: left;
+   margin-right: 0.2em;
+}
+
+#searches-list
+{
+   cursor: pointer;
+}
+
+#searches-list > li:hover dl,
+#searches-list > li:focus dl
+{
+   display: block;
+}
+
+#searches-list dl
+{
+   margin: 0;
+   display: none;
+}
+
+
+
+.side{
+    background-color: yellow;
+}
+
+
+
+.task1{
+background-color: black;    
+
+}
+.chart{
+    float:left;
+}
+
+/* nanoscrollbar */
+.nano .pane   { background: #888; }
+.nano .slider { background: #111; }
+
+body {
+    /* Override bootstrap properties */
+    
+
+background: #BA8B02; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #BA8B02 , #181818); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #BA8B02 , #181818); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    border: 0 !important;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1060px;
+    min-height: 100%;
+   
+    border: 0;
+}
+
+#header{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+
+
+#pending{
+    background-color: #FF3366;
+}
+
+#inProgress{
+    background-color: yellow;
+}
+
+#completed{
+    background-color: green;
+}
+
+.task1{
+    width: 250px;
+    
+  
+    
+    min-height: 240px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+
+.task-list{
+    width: 250px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    background-color: #e3e3e3;
+    min-height: 240px;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.task-list input, .task-list textarea{
+    width: 240px;
+    margin: 1px 5px;
+}
+
+.task-list input{
+    height: 30px;
+}
+
+.todo-task{
+    border-radius: 5px;
+    background-color: #fff;
+    width: 230px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.task-list input[type="button"]{
+    width: 100px;
+    margin: 5px;
+
+}
+
+.todo-task >.task-header{
+    font-weight: bold;
+    
+}
+
+.todo-task > .task-date{
+    font-size: small;
+    font-style: italic;
+}
+
+.todo-task > .task-description{
+    font-size: smaller;
+}
+
+h3{
+    text-align: center;
+}
+
+#delete-div{
+    display: none;
+    background-color: #fff;
+    border: 3px dotted #000;
+    margin: 10px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+}
